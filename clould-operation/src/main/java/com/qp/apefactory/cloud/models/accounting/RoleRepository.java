@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
  * Created by QING on 2016/4/28.
  */
 @Repository
-public interface UserRepository extends BaseRepository<User,Long> {
+public interface RoleRepository extends BaseRepository<Role,Long> {
     
 }
