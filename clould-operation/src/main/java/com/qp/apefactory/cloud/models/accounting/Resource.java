@@ -11,7 +11,8 @@ import java.util.Set;
 @Entity
 @Table(name = "resource")
 public class Resource {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     /** 资源名字 */
